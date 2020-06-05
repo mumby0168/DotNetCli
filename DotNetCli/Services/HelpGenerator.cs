@@ -1,6 +1,7 @@
 using System;
 using System.Linq;
 using System.Reflection;
+using System.Text;
 using DotNetCli.Attributes;
 using DotNetCli.Interfaces;
 
@@ -23,7 +24,14 @@ namespace DotNetCli.Services
 
                     foreach (var commandMethod in methodInfos)
                     {
-                        Console.WriteLine($"\t[{commandHandler.Name}] {commandMethod.Name} - {commandMethod.GetCustomAttribute<CommandAttribute>().Description}");
+                        var parameters = commandMethod.GetParameters();
+                        var parametersString = new StringBuilder();
+                        foreach (var parameterInfo in parameters)
+                        {
+                            parametersString.Append(parameterInfo.Name + ",");
+                        }
+                        
+                        Console.WriteLine($"\t{commandHandler.Name} {commandMethod.Name} [{parametersString}] - {commandMethod.GetCustomAttribute<CommandAttribute>().Description}");
                     }
                 }
 
