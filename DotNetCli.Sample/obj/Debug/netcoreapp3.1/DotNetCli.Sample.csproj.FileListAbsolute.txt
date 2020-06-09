@@ -1,0 +1,14 @@
+/Users/billy/repos/DotNetCli/DotNetCli.Sample/bin/Debug/netcoreapp3.1/DotNetCli.Sample.deps.json
+/Users/billy/repos/DotNetCli/DotNetCli.Sample/bin/Debug/netcoreapp3.1/DotNetCli.Sample.runtimeconfig.json
+/Users/billy/repos/DotNetCli/DotNetCli.Sample/bin/Debug/netcoreapp3.1/DotNetCli.Sample.runtimeconfig.dev.json
+/Users/billy/repos/DotNetCli/DotNetCli.Sample/bin/Debug/netcoreapp3.1/DotNetCli.Sample.dll
+/Users/billy/repos/DotNetCli/DotNetCli.Sample/bin/Debug/netcoreapp3.1/DotNetCli.Sample.pdb
+/Users/billy/repos/DotNetCli/DotNetCli.Sample/bin/Debug/netcoreapp3.1/Autofac.dll
+/Users/billy/repos/DotNetCli/DotNetCli.Sample/bin/Debug/netcoreapp3.1/DotNetCli.dll
+/Users/billy/repos/DotNetCli/DotNetCli.Sample/bin/Debug/netcoreapp3.1/DotNetCli.pdb
+/Users/billy/repos/DotNetCli/DotNetCli.Sample/obj/Debug/netcoreapp3.1/DotNetCli.Sample.csprojAssemblyReference.cache
+/Users/billy/repos/DotNetCli/DotNetCli.Sample/obj/Debug/netcoreapp3.1/DotNetCli.Sample.AssemblyInfoInputs.cache
+/Users/billy/repos/DotNetCli/DotNetCli.Sample/obj/Debug/netcoreapp3.1/DotNetCli.Sample.AssemblyInfo.cs
+/Users/billy/repos/DotNetCli/DotNetCli.Sample/obj/Debug/netcoreapp3.1/DotNetCli.Sample.csproj.CopyComplete
+/Users/billy/repos/DotNetCli/DotNetCli.Sample/obj/Debug/netcoreapp3.1/DotNetCli.Sample.dll
+/Users/billy/repos/DotNetCli/DotNetCli.Sample/obj/Debug/netcoreapp3.1/DotNetCli.Sample.pdb
