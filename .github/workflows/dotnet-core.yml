@@ -1,0 +1,39 @@
+name: .NET Core
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.1.101
+    - name: Install dependencies
+      run: dotnet restore
+    - name: Build
+      run: dotnet build --configuration Release --no-restore
+    - name: Test
+      run: dotnet test --no-restore --verbosity normal
+    - name: Publish NuGet
+      uses: brandedoutcast/publish-nuget@v2.5.2
+      with:
+        # Filepath of the project to be packaged, relative to root of repository
+        PROJECT_FILE_PATH: /DotNetCli/DotNetCli.proj
+        # NuGet package id, used for version detection & defaults to project name
+        PACKAGE_NAME: DotNetCli
+        # Filepath with version info, relative to root of repository & defaults to PROJECT_FILE_PATH
+        VERSION_STATIC: 0.0.1
+        TAG_COMMIT: true
+        # API key to authenticate with NuGet server
+        NUGET_KEY: oy2g3bidcqflzx3u4jpqlfsuf5qvj6kulmnkln34almz2q
+        # NuGet server uri hosting the packages, defaults to https://api.nuget.org
+        NUGET_SOURCE: https://api.nuget.org
