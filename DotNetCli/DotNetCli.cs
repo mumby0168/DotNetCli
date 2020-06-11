@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
 using Autofac;
-using Autofac.Core;
 using DotNetCli.Exceptions;
 using DotNetCli.Interfaces;
 using DotNetCli.Services;
@@ -27,28 +26,23 @@ namespace DotNetCli
             _containerBuilder.RegisterType<T>();
         }
 
-        public static async Task RunAsync()
+        public static async Task RunAsync(string[] input)
         {
-            Container = _containerBuilder.Build();
-            var executor = Container.Resolve<ICommandExecutor>();
-            string userInput = "";
-            do
+            if (Container is null)
             {
-                userInput = Console.ReadLine();
-                
-                try
-                {
-                    await executor.Execute(userInput);
-                }
-                catch (DotNetCliException e)
-                {
-                    Console.WriteLine("cli error: " + e.Message);
-                }
-                
+                Container = _containerBuilder.Build();
+            }
+            
+            var executor = Container.Resolve<ICommandExecutor>();
 
-                if (userInput == "Exit")
-                    continue;
-            } while (userInput != "Exit");
+            try
+            {
+                await executor.Execute(input);
+            }
+            catch (DotNetCliException e)
+            {
+                Console.WriteLine("cli error: " + e.Message);
+            }
         }
     }
 }

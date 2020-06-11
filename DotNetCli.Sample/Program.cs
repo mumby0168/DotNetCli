@@ -27,7 +27,7 @@ namespace DotNetCli.Sample
         {
             DotNetCli.Init();
             DotNetCli.RegisterHandler<Example>();
-            await DotNetCli.RunAsync();
+            await DotNetCli.RunAsync(args);
         }
     }
 }

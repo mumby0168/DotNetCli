@@ -1,3 +1,4 @@
+using System.Linq;
 using System.Threading.Tasks;
 using Autofac;
 using DotNetCli.Interfaces;
@@ -18,21 +19,15 @@ namespace DotNetCli.Services
             _helpGenerator = helpGenerator;
             _commandMethodExecutor = commandMethodExecutor;
         }
-        public async Task Execute(string userInput)
+        public async Task Execute(string[] command)
         {
-            if (userInput == Help)
+            if (command.Contains(Help))
             {
                 _helpGenerator.GenerateHelp();
                 return;
             }
-
-            if (userInput == Exit)
-            {
-                return;
-            }
             
-            var command =  userInput.Split(' ');
-            var type = _handlerTypeFinder.ResolveType(userInput);
+            var type = _handlerTypeFinder.ResolveType(command);
             var instance = DotNetCli.Container.Resolve(type);
             var methodInfo = _commandMethodExecutor.ValidateType(type, command);
             await _commandMethodExecutor.Execute(methodInfo, command, instance);

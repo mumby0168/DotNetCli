@@ -4,6 +4,6 @@ namespace DotNetCli.Interfaces
 {
     public interface ICommandExecutor
     {
-        Task Execute(string userInput);
+        Task Execute(string[] userInput);
     }
 }

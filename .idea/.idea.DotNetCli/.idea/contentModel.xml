@@ -9,8 +9,10 @@
           <e p="CommandAttribute.cs" t="Include" />
         </e>
         <e p="bin" t="ExcludeRecursive" />
+        <e p="DotNetCli.1.0.0.nupkg" t="Include" />
         <e p="DotNetCli.cs" t="Include" />
         <e p="DotNetCli.csproj" t="IncludeRecursive" />
+        <e p="DotNetCli.nuspec" t="Include" />
         <e p="Exceptions" t="Include">
           <e p="DotNetCliException.cs" t="Include" />
         </e>
@@ -26,6 +28,9 @@
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="DotNetCli.AssemblyInfo.cs" t="Include" />
+            </e>
             <e p="netstandard2.0" t="Include">
               <e p="DotNetCli.AssemblyInfo.cs" t="Include" />
             </e>
