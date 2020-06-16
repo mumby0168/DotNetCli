@@ -1,26 +1,6 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "Autofac/5.2.0": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.1/Autofac.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.1/Autofac.dll": {}
-        }
-      },
-      "Microsoft.CSharp/4.7.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
-        }
-      }
-    },
     ".NETStandard,Version=v2.0": {
       "Autofac/5.2.0": {
         "type": "package",
@@ -423,10 +403,6 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
-      "Autofac >= 5.2.0",
-      "Microsoft.CSharp >= 4.7.0"
-    ],
     ".NETStandard,Version=v2.0": [
       "Autofac >= 5.2.0",
       "Microsoft.CSharp >= 4.7.0",
@@ -438,15 +414,14 @@
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "restore": {
       "projectUniqueName": "/Users/billy/repos/DotNetCli/DotNetCli/DotNetCli.csproj",
-      "projectName": "DotNetCli",
+      "projectName": "EasyDotNetCliLibrary",
       "projectPath": "/Users/billy/repos/DotNetCli/DotNetCli/DotNetCli.csproj",
       "packagesPath": "/Users/billy/.nuget/packages/",
       "outputPath": "/Users/billy/repos/DotNetCli/DotNetCli/obj/",
       "projectStyle": "PackageReference",
-      "crossTargeting": true,
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
@@ -454,16 +429,12 @@
         "/Users/billy/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1",
         "netstandard2.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "projectReferences": {}
-        },
         "netstandard2.0": {
           "projectReferences": {}
         }
@@ -475,34 +446,6 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
-        "dependencies": {
-          "Autofac": {
-            "target": "Package",
-            "version": "[5.2.0, )"
-          },
-          "Microsoft.CSharp": {
-            "target": "Package",
-            "version": "[4.7.0, )"
-          }
-        },
-        "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48"
-        ],
-        "assetTargetFallback": true,
-        "warn": true,
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
-      },
       "netstandard2.0": {
         "dependencies": {
           "Autofac": {

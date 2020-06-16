@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package >
+<package>
   <metadata>
     <id>EasyDotNetCliLibrary</id>
-    <version>$version$</version>
-    <title>$title$</title>
+    <version>1.0.0</version>
+    <title>EasyDotNetCliLibrary</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
-    <projectUrl>http://project_url_here_or_delete_this_line/</projectUrl>
-    <iconUrl>http://icon_url_here_or_delete_this_line/</iconUrl>
+    <projectUrl>https://github.com/mumby0168/DotNetCli/blob/master/README.md</projectUrl>
+    <iconUrl>https://stackify.com/wp-content/uploads/2017/05/Command-Line-1280x720.jpg</iconUrl>
     <description>A simple cli tool for dotnet core projects.</description>
     <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
     <copyright>Copyright 2020</copyright>

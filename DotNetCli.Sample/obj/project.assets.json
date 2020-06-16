@@ -20,18 +20,18 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
-      "DotNetCli/1.0.0": {
+      "EasyDotNetCliLibrary/1.0.1": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
+        "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Autofac": "5.2.0",
           "Microsoft.CSharp": "4.7.0"
         },
         "compile": {
-          "bin/placeholder/DotNetCli.dll": {}
+          "bin/placeholder/EasyDotNetCliLibrary.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DotNetCli.dll": {}
+          "bin/placeholder/EasyDotNetCliLibrary.dll": {}
         }
       }
     }
@@ -127,7 +127,7 @@
         "version.txt"
       ]
     },
-    "DotNetCli/1.0.0": {
+    "EasyDotNetCliLibrary/1.0.1": {
       "type": "project",
       "path": "../DotNetCli/DotNetCli.csproj",
       "msbuildProject": "../DotNetCli/DotNetCli.csproj"
@@ -135,7 +135,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "DotNetCli >= 1.0.0"
+      "EasyDotNetCliLibrary >= 1.0.1"
     ]
   },
   "packageFolders": {

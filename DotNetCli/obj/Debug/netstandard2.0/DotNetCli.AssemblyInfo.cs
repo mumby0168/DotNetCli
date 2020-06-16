@@ -12,6 +12,8 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("DotNetCli")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("This provides a simple way to use the args[] out of a .NET console application to" +
+    " map to method and classes registered as command handlers.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("DotNetCli")]
