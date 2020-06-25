@@ -6,6 +6,8 @@ The first thing to do is create a console application in either .NET Core or .NE
 
 Then download and add the latest version of the nuget package ```EasyDotNetCliLibrary```.
 
+You can also [find it here](https://www.nuget.org/packages/EasyDotNetCliLibrary/) 
+
 ## Setup 
 
 A console application by default provides ```string[] args``` as a parameter to main. This is a good starting point to pass to the DotNetCli. A standard setup could look something like provided in the sample application:
