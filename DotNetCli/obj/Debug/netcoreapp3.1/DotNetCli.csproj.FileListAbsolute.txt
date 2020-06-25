@@ -1,8 +1,0 @@
-/Users/billy/repos/DotNetCli/DotNetCli/bin/Debug/netcoreapp3.1/DotNetCli.deps.json
-/Users/billy/repos/DotNetCli/DotNetCli/bin/Debug/netcoreapp3.1/DotNetCli.dll
-/Users/billy/repos/DotNetCli/DotNetCli/bin/Debug/netcoreapp3.1/DotNetCli.pdb
-/Users/billy/repos/DotNetCli/DotNetCli/obj/Debug/netcoreapp3.1/DotNetCli.csprojAssemblyReference.cache
-/Users/billy/repos/DotNetCli/DotNetCli/obj/Debug/netcoreapp3.1/DotNetCli.AssemblyInfoInputs.cache
-/Users/billy/repos/DotNetCli/DotNetCli/obj/Debug/netcoreapp3.1/DotNetCli.AssemblyInfo.cs
-/Users/billy/repos/DotNetCli/DotNetCli/obj/Debug/netcoreapp3.1/DotNetCli.dll
-/Users/billy/repos/DotNetCli/DotNetCli/obj/Debug/netcoreapp3.1/DotNetCli.pdb

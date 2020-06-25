@@ -3,9 +3,10 @@
     <PropertyGroup>
         <PackageId>EasyDotNetCliLibrary</PackageId>
         <TargetFramework>netstandard2.0</TargetFramework>
-        <PackageVersion>1.0.1</PackageVersion>
+        <PackageVersion>1.0.3</PackageVersion>
         <Title>A simple .NET CLI Framework</Title>
         <Description>This provides a simple way to use the args[] out of a .NET console application to map to method and classes registered as command handlers.</Description>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     </PropertyGroup>
 
     <ItemGroup>
