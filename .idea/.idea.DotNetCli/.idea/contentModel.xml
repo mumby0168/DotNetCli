@@ -11,6 +11,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="DotNetCli.cs" t="Include" />
         <e p="DotNetCli.csproj" t="IncludeRecursive" />
+        <e p="DotNetCli.nuspec" t="Include" />
         <e p="Exceptions" t="Include">
           <e p="DotNetCliException.cs" t="Include" />
         </e>

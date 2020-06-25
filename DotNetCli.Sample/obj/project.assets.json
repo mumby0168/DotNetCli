@@ -20,7 +20,7 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
-      "DotNetCli/1.0.0": {
+      "EasyDotNetCliLibrary/1.0.1": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -28,10 +28,10 @@
           "Microsoft.CSharp": "4.7.0"
         },
         "compile": {
-          "bin/placeholder/DotNetCli.dll": {}
+          "bin/placeholder/EasyDotNetCliLibrary.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DotNetCli.dll": {}
+          "bin/placeholder/EasyDotNetCliLibrary.dll": {}
         }
       }
     }
@@ -127,7 +127,7 @@
         "version.txt"
       ]
     },
-    "DotNetCli/1.0.0": {
+    "EasyDotNetCliLibrary/1.0.1": {
       "type": "project",
       "path": "../DotNetCli/DotNetCli.csproj",
       "msbuildProject": "../DotNetCli/DotNetCli.csproj"
@@ -135,7 +135,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "DotNetCli >= 1.0.0"
+      "EasyDotNetCliLibrary >= 1.0.1"
     ]
   },
   "packageFolders": {
@@ -155,7 +155,7 @@
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/billy/.config/NuGet/NuGet.Config"
+        "/Users/billy/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

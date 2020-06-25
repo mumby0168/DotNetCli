@@ -1,8 +1,8 @@
 ﻿{
-  "version": "1.0.0",
+  "version": "1.0.1",
   "restore": {
     "projectUniqueName": "/Users/billy/repos/DotNetCli/DotNetCli/DotNetCli.csproj",
-    "projectName": "DotNetCli",
+    "projectName": "EasyDotNetCliLibrary",
     "projectPath": "/Users/billy/repos/DotNetCli/DotNetCli/DotNetCli.csproj",
     "outputPath": "/Users/billy/repos/DotNetCli/DotNetCli/obj/",
     "projectStyle": "PackageReference",

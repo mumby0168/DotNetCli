@@ -414,10 +414,10 @@
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "restore": {
       "projectUniqueName": "/Users/billy/repos/DotNetCli/DotNetCli/DotNetCli.csproj",
-      "projectName": "DotNetCli",
+      "projectName": "EasyDotNetCliLibrary",
       "projectPath": "/Users/billy/repos/DotNetCli/DotNetCli/DotNetCli.csproj",
       "packagesPath": "/Users/billy/.nuget/packages/",
       "outputPath": "/Users/billy/repos/DotNetCli/DotNetCli/obj/",
@@ -426,7 +426,7 @@
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/billy/.config/NuGet/NuGet.Config"
+        "/Users/billy/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
